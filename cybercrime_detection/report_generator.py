@@ -6,16 +6,16 @@ def calculate_complexity(tools, loop_counts):
     complexity_data = {}
     for tool in tools:
         complexity_data[tool['name']] = {
-            "time_complexity": f"O({loop_counts[0]})",  # For simplicity, assuming linear time complexity
-            "space_complexity": f"O({loop_counts[1]})"  # Assuming linear space complexity for TCP packets
+            "time_complexity": f"O({loop_counts[0]})", 
+            "space_complexity": f"O({loop_counts[1]})"  
         }
     return complexity_data
 
 def calculate_energy_consumption(processes, loop_counts):
     energy_data = {}
     for process in processes:
-        duration = process.get("duration", 1)  # in hours
-        power = process.get("power", 0.5)  # in kWh
+        duration = process.get("duration", 1)  
+        power = process.get("power", 0.5)  
         energy_data[process['name']] = {
             "energy_consumed": round(duration * power, 2),
             "duration": duration,
