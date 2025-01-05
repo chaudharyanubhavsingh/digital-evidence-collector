@@ -1,5 +1,8 @@
 
 # CYBERCRIME DETECTION AND EVIDENCE COLLECTION SYSTEM
+![1](<WhatsApp Image 2024-11-18 at 19.05.45_8cf5be2a.jpg>)
+![2](<WhatsApp Image 2024-11-18 at 19.06.47_08b3da80.jpg>)
+![3](<WhatsApp Image 2024-11-18 at 19.08.47_e1ac082b.jpg>)
 
 ## Overview
 This project is an advanced tool designed for cybersecurity investigations. It includes features for detecting phishing, analyzing network traffic, collecting evidence, and generating forensic-style reports. The system is tailored to assist cybersecurity professionals in identifying and mitigating potential threats effectively.
